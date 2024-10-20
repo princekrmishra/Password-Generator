@@ -87,6 +87,7 @@ h1{
     font-size: 16px;
     color: #333;
     outline: none;
+    border-radius: 12px;
 }
 
 .display::placeholder {
@@ -100,8 +101,10 @@ button {
 }
 
 button img {
-    width: 23px;
+    width: 33px;
     height: 23px;
+    background-color: white;
+    border-radius: 6px;
 }
 
 input[type="range"] {
@@ -196,9 +199,6 @@ label {
         width: 40px;
     }
 }
-
-
-
 
 .generateButton {
     width: 100%;
